@@ -1,15 +1,15 @@
 import React from 'react';
-import {Container,Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 export default function Footer() {
   return (
-    <Footer>
-      <Container>
+    <footer>
+    <Container>
         <Row>
-          <Col>CopyRight©2023</Col>
+        <Col className='text-center py-3'>Copyright &copy; ProShop</Col>
         </Row>
-      </Container>
-    </Footer>
+    </Container>
+</footer>
   )
 }
